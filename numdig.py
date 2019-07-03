@@ -1,7 +1,7 @@
 a=int(input())
-int(count)==0
-while a!=0:
-  a=a/10
-  ++count
+count=0
+while a>0:
+  count=count+1
+  a=a//10
 print(count)
 
